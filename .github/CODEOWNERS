@@ -1,0 +1,35 @@
+# CODEOWNERS file for billing-database-613
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-identity @Armor-test/team-frontend @Armor-test/dept-automation
+
+# Directory ownership
+/services/ @Armor-test/squad-qa @Armor-test/grp-api
+/pages/ @Armor-test/dept-logging @Armor-test/team-reporting @Armor-test/unit-design
+/internal/ @Armor-test/squad-performance @Armor-test/unit-devops @Armor-test/squad-apps
+/models/ @Armor-test/dept-notifications @Armor-test/dept-reliability
+/tests/ @Armor-test/squad-reporting @Armor-test/dept-test
+/auth/ @Armor-test/squad-frontend @Armor-test/squad-research
+/modules/ @Armor-test/team-logging @Armor-test/grp-storage
+/build/ @Armor-test/dept-logging @Armor-test/unit-cloud
+/db/ @Armor-test/unit-design @Armor-test/squad-database
+/data/ @Armor-test/unit-devops @Armor-test/dept-data @Armor-test/squad-frontend
+/shared/ @Armor-test/dept-security @Armor-test/dept-reporting @Armor-test/grp-payments
+/middleware/ @Armor-test/squad-reporting @Armor-test/dept-reporting @Armor-test/unit-cloud
+/lib/ @Armor-test/squad-frontend @Armor-test/team-logging
+
+# File type ownership
+*.php @Armor-test/unit-devops @Armor-test/dept-data
+*.c @Armor-test/squad-mobile @Armor-test/dept-notifications @Armor-test/dept-test
+*.java @Armor-test/squad-cache @Armor-test/unit-test @Armor-test/squad-mobile
+*.cpp @Armor-test/dept-logging @Armor-test/grp-integration
+*.py @Armor-test/squad-cloud @Armor-test/unit-test @Armor-test/dept-security
+*.sh @Armor-test/dept-notifications @Armor-test/unit-design @Armor-test/dept-automation
+*.tf @Armor-test/team-core @Armor-test/squad-database @Armor-test/squad-frontend
+*.yaml @Armor-test/grp-reporting @Armor-test/dept-release @Armor-test/dept-data
+*.css @Armor-test/squad-ml @Armor-test/squad-search
+*.scala @Armor-test/dept-api @Armor-test/grp-integration @Armor-test/unit-governance
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
